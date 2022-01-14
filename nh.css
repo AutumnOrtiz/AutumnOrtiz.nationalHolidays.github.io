@@ -1,0 +1,43 @@
+#page { 
+    background-color: #575174;
+    display:grid;
+    height:850px;
+    grid-template-columns: 500px 500px 500px;
+    grid-row:auto auto;
+}
+#header {
+    grid-column:2;
+    grid-row:1;
+    background-color: #7b6ec0;
+    padding:10px;
+    border-radius:10px;
+}
+#list { 
+   background-color: #c8c3e5;
+    grid-row:2;
+    grid-column:2;
+    margin-top: -10px;
+    margin-bottom:550px;
+    font-size:30px;
+    list-style-type: none;
+    padding:20px;
+    border-radius:15px;
+
+}
+
+.color1 {
+ background-color: #c06eb0;
+ padding:5px;
+}
+
+.odd {
+    background-color: #617c46;
+    padding:5px;
+}
+
+.even {
+    background-color: #e6c736;
+    padding:5px;
+}
+
+
